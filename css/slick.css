@@ -13,25 +13,14 @@
     width: 480px;
     height: 500px;
 }
-.main_slide_one{
 
-          overflow: hidden; /* Запобігає горизонтальному відображенню */
-      white-space: nowrap;
-      position: relative;
-      width: 100%;
-      height: 300px;
-}
-.main_slide_one .main_slide_one_items{
-        display: inline-block;
-      width: 100%;
-      height: 100%;
-}
 
 /*---------------------кнопики налаштовую де сука будуть стояти---------------*/
 .main_slide_one{
     position: relative;
     padding: 0 50px;
     text-align: center; /*тут можна вирівняти цю хуйню*/
+    overflow: hidden;
 }
 .main_slide_one .slick-arrow{
     position: absolute;
