@@ -20,7 +20,6 @@
     position: relative;
     padding: 0 50px;
     text-align: center; /*тут можна вирівняти цю хуйню*/
-    overflow: hidden;
 }
 .main_slide_one .slick-arrow{
     position: absolute;
