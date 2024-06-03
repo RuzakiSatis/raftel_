@@ -9,7 +9,8 @@ $(document).ready(function(){
 	
   });
 });
-
+    document.addEventListener("DOMContentLoaded", function() {
+      document.querySelector('.main_slide_one').style.display = 'block';
 function formatTime(time) {
 	return time < 10 ? "0" + time : time;
 }
