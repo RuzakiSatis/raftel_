@@ -13,6 +13,9 @@
     width: 480px;
     height: 500px;
 }
+.main_slide_one{
+    display: none;
+}
 /*---------------------кнопики налаштовую де сука будуть стояти---------------*/
 .main_slide_one{
     position: relative;
