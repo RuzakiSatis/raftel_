@@ -14,8 +14,19 @@
     height: 500px;
 }
 .main_slide_one{
-    display: none;
+
+          overflow: hidden; /* Запобігає горизонтальному відображенню */
+      white-space: nowrap;
+      position: relative;
+      width: 100%;
+      height: 300px;
 }
+.main_slide_one .main_slide_one_items{
+        display: inline-block;
+      width: 100%;
+      height: 100%;
+}
+
 /*---------------------кнопики налаштовую де сука будуть стояти---------------*/
 .main_slide_one{
     position: relative;
