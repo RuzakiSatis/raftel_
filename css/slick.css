@@ -66,6 +66,10 @@
         width: 250px;
         height: 300px;
     }
+    .main_slide_one{
+    overflow: hidden;
+    height: 300px;
+}
 }
 @media(max-width:450px){
     .main_slide_one_items img{
@@ -76,4 +80,8 @@
         width: 265px;
         height: 365px;
     }
+        .main_slide_one{
+    overflow: hidden;
+    height: 365px;
+}
 }
